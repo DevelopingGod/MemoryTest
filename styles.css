@@ -1,0 +1,126 @@
+body {
+  text-align: center;
+  background-color: #011F3F;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+  line-height: 1.5;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+footer {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+.hide {
+  display: none;
+}
+
+@media (max-width: 1028px) {
+
+  h1 {
+    text-align: center;
+    margin-top: 4rem;
+    line-height: 1.5;
+  }
+
+
+  .showOnMobile {
+    display: initial;
+  }
+
+  .btn {
+    height: 250px;
+    width: 250px;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .mainButton {
+    font-size: 60px;
+    margin: 5%;
+  }
+
+  footer {
+    padding-bottom: 10%;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}
+
+
+.mainButton {
+  background: #e8e8e8;
+  background-image: -webkit-linear-gradient(top, #e8e8e8, #ffffff);
+  background-image: -moz-linear-gradient(top, #e8e8e8, #ffffff);
+  background-image: -ms-linear-gradient(top, #e8e8e8, #ffffff);
+  background-image: -o-linear-gradient(top, #e8e8e8, #ffffff);
+  background-image: linear-gradient(to bottom, #e8e8e8, #ffffff);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #0a1f4f;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.mainButton:hover {
+  background: #009e03;
+  background-image: -webkit-linear-gradient(top, #009e03, #03ab3b);
+  background-image: -moz-linear-gradient(top, #009e03, #03ab3b);
+  background-image: -ms-linear-gradient(top, #009e03, #03ab3b);
+  background-image: -o-linear-gradient(top, #009e03, #03ab3b);
+  background-image: linear-gradient(to bottom, #009e03, #03ab3b);
+  text-decoration: none;
+  color: white;
+}
